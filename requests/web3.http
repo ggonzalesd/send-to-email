@@ -1,0 +1,12 @@
+@web3host=http://localhost:3000/web3
+
+### SEND EMAIL
+POST {{web3host}}
+Content-Type: application/json
+
+{
+  "firstname": "Nombre",
+  "lastname": "Apellido",
+  "email": "usuario@email.com",
+  "comment": "comentario"
+}
