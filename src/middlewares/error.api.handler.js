@@ -15,6 +15,7 @@ async function serverErrorHandler(err, req, res, next) {
     ok: false,
     message: err.message,
     stack: err.stack,
+    error: err,
   });
 }
 
